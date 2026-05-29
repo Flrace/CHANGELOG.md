@@ -1,0 +1,13 @@
+
+
+
+
+
+cd /workspace/ваш-репозиторий
+echo "# Changelog" > CHANGELOG.md
+echo "" >> CHANGELOG.md
+echo "## [1.0.0] - $(date +%Y-%m-%d)" >> CHANGELOG.md
+echo "### Добавлено" >> CHANGELOG.md
+echo "- Базовая структура HTML-документа." >> CHANGELOG.md
+echo "- Персональные карточки разработчиков." >> CHANGELOG.md
+echo "- Базовая CSS-стилизация." >> CHANGELOG.md
